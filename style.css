@@ -131,4 +131,21 @@ ul{
     padding-bottom: 1.5rem;
 }
 
+#animacion{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: blue;
+    animation-name: animar;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
 
+@keyframes animar{
+    0%{
+        transform: scale(.3);
+        background-color: aqua;
+        border-radius: 100%;
+    }
+}
