@@ -4,9 +4,26 @@
     padding: 0;
 }
 
-.service{
-    display: flex;
-    justify-content: space-around;
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: lightseagreen;
+}
+
+.container-nosotros{
+    background-image: url(Imagenes/1533921980121.jpg);
+    background-color: rgba(0, 0, 255, 0.459);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+
+.nosotros{
+    padding: 8rem; 
 }
 
 .final{
